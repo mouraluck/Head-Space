@@ -12,13 +12,13 @@ h2:before {
   white-space: nowrap;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  align-content: center;
-  flex-shrink: 0;
 }
 
 h2:hover:before {
   width: 150px;
   text-align: center;
-  content: 'Depressão';
+  content: 'Crestane';
 }
