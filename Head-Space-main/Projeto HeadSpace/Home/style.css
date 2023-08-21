@@ -1,0 +1,47 @@
+*{
+   
+margin: 20px;
+padding: 0;
+box-sizing: border-box;
+}
+header {
+    margin-top: 20px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+
+}
+
+header img {
+    
+    margin: 10px;
+    width: 45px;
+    
+}
+header h1{
+    letter-spacing: 12px;
+    font-family: Marcellus SC;
+color: #373D3B;
+}
+body{
+
+    background-color: #FDF3DD;
+}
+button{
+    border-radius: 20px;
+    width: 384px;
+    height: 582px;
+    background-color: #B2D9FA;
+}
+button img{
+    width: 160px;
+}
+button h1{
+    font-size: 40px;
+color: white;
+}
+form button {
+
+}
+
+
