@@ -1,0 +1,109 @@
+* {
+
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 20px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    
+}
+
+body {
+    font-family: 'Marcellus';
+    text-align: center;
+    color: #000;
+    min-width: 10px;
+    background-color: #fddddd;
+}
+
+.title h1{
+    width: 225px;
+    height: 50px;
+    flex-shrink: 0;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.textoone h2 {
+    padding-top: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 676px;
+    height: 260.87px;
+    flex-shrink: 0;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 30px;
+    background: #F1DFB6;
+    width: 700px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.textotwo h1 {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 592px;
+    height: 80px;
+    flex-shrink: 0;
+    position: relative;
+ 
+}
+
+.textotwo {
+    border-radius: 30px;
+    background: #F1DFB6;
+    width: 700px;
+    height: 300px;
+    flex-shrink: 0;
+    position: relative;
+ 
+}
+
+.textotwo h2 {
+    width: 400px;
+    height: 40px;
+    flex-shrink: 0;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+ 
+}
+
+.textotwo img {
+    width: 75px;
+    height: 75px;
+    flex-shrink: 0;
+   
+    background: url(https://www.figma.com/file/FwezxcaQxRvE5THUsI9ow3/image/72a4e175e3786655ebb67298cb85565799e25539?fuid=1229759429118023247), lightgray 50% / cover no-repeat;
+}
+
+.textothree h1{
+    display: flex;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 225px;
+    height: 50px;
+    flex-shrink: 0;
+    position: relative;
+    right: 163px;
+    left: 1012px;
+    bottom: -882px ;
+    top: -729px;
+    
+}
