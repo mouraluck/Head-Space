@@ -3,13 +3,14 @@
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 header {
     font-family: 'Marcellus', serif;
-    margin-top: 20px;
-    margin-left: 30px;
-    height: 90px;
+    margin-top: 2%;
+    margin-left: 3%;
+    height: 9%;
     display: flex;
     align-items: center;
 
@@ -21,43 +22,43 @@ header img:hover {
 }
 
 body {
+    height: 100vh;
     font-family: 'Marcellus', serif;
     text-align: center;
     color: #000;
-    min-width: 10px;
+    min-width: 1%;
     background-color: #fddddd;
 }
 
 .title{
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
-    margin-left: 120px;
-    width: 900px;
-    height: 200px;
-    gap: 20px;
+    margin-left: 18%;
+    width: 90%;
+    height: 10%;
+    gap: 7%;
 }
 
 
 .title h1{
-    margin-top: 50px;
-    margin-left: 230px;
+    margin-top: 3%;
+    margin-left: 16%;
     display: flex;
     align-items: center;
-    font-size: 50px;
+    font-size: 350%;
     font-weight: 400;
-    width: 922px;
-    height: 222px;
+    width: 80%;
+    height: 10%;
 }
 
 .title h2{  
-    margin-left: 80px;
+    margin-top: 5%;
     display:flex;
     align-items: center;
-    width: 800px;
-    height: 80px;
-    font-weight: 350;
-    padding: 2%;
+    width: 70%;
+    font-size: 180%;
+    font-weight: 400;
+    padding: 1%;
     border-radius: 30px;
     background: #fadc96;
 
@@ -65,18 +66,18 @@ body {
 
 .textos{
     display: flex;
-    margin-top: 200px;
-    margin-left: 110px;
-    gap: 40px;
+    margin-top: 13%;
+    margin-left: 11%;
+    gap: 8%;
 }
 
 .textos h1{
   
     font-family: 'Marcellus', serif;
-    padding: 20px;
-    width: 550px;
-    height: 200px;
-    font-size: 20px;
+    padding: 2%;
+    width: 40%;
+    height: 45%;
+    font-size: 190%;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -91,38 +92,41 @@ body {
    
     font-family: 'Marcellus', serif;
     padding: 2%;
-    width: 550px;
-    height: 200px;
-    font-size: 20px;
+    width: 40%;
+    height: 45%;
+    font-size: 197%;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     border-radius: 30px;
     background: #fadc96;
     text-align: center;
+   
     
 }
 
 button {
     font-family: 'Marcellus', serif;
     color: black;
-    padding: 5px;
+    padding: 1% , 1%;
     line-height: normal;
-    width: 130px;
-    height: 60px;
-    font-size: 30px;
+    width: 10%;
+    height: 8%;
+    font-size: 230%;
     border-radius: 30px;
     border-width: 0;
     background: #CAAACD;
     margin-top: 2%;
-    margin-inline: 240px;
+    margin-inline: 17%;
 }
 
 a:link {
     text-decoration: none;
+    color: #000;
    }
 
 a:hover {
     text-decoration: underline;
+
 }
 
