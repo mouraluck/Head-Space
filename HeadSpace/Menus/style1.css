@@ -1,6 +1,6 @@
 * {
 
-    margin: 0px;
+    margin: 20px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -161,4 +161,10 @@ body {
     position: relative;
     bottom: 200px;
     right: 200px;
+}
+
+@media (max-height: 768px) {
+    *{
+        zoom: 95%;
+    }
 }

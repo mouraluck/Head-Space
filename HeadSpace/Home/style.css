@@ -13,6 +13,12 @@ header {
 
 }
 
+a:link {
+    text-decoration: none;
+    color: #000;
+   }
+
+
 header img {
 
     margin: 10px;
@@ -263,4 +269,10 @@ bottom: 1503px;
     width: 124px;
     height: 124px;
 
+}
+
+@media (max-height: 768px) {
+    *{
+        zoom: 96%;
+    }
 }
