@@ -271,7 +271,7 @@ bottom: 1503px;
 
 }
 
-@media (max-height: 768px) {
+@media (max-width: 1920px) {
     *{
         zoom: 96%;
     }

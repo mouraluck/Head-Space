@@ -199,7 +199,7 @@ button a:link {
 
 
 
-@media (max-width: 1366px) {
+@media (max-width: 1920px) {
 
     header img {
        margin-top: 4%;
@@ -259,6 +259,22 @@ button a:link {
         font-size: 25px;
         position: center;
 
+    }
+
+    .Texto{
+    
+        font-family: 'Marcellus', serif;
+        padding: 20px;
+        width: 585px;
+        height: 660px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-radius: 30px;
+        text-align: center;
+       
+    
     }
 
     
