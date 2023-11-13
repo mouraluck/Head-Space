@@ -22,6 +22,8 @@ header img:hover {
 }
 
 body {
+    overflow-y: hidden;
+    overflow-x: hidden;
     height: 100vh;
     width: 100%;
     font-family: 'Marcellus', serif;
@@ -133,7 +135,7 @@ a:hover {
 
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 1366px) {
 
 
     header {

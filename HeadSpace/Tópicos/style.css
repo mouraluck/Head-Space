@@ -18,7 +18,7 @@ header img:hover {
 }
 
 body {
-
+overflow-y: hidden;
     background: #FDF3DD;
     height: 100vh;
     width: 100vh;
@@ -26,7 +26,7 @@ body {
 
 h1 {
     font-weight: bold;
-    color: #FDF3DD;
+    color: black;
     font-size: 50px;
     font-family: Ubuntu;
     font-weight: 400;
@@ -199,7 +199,7 @@ button a:link {
 
 
 
-@media (max-width: 1920px) {
+@media (max-width: 1366px) {
 
     header img {
        margin-top: 4%;
@@ -263,13 +263,16 @@ button a:link {
 
     .Texto{
     
-        font-family: 'Marcellus', serif;
-        padding: 20px;
-        width: 585px;
-        height: 660px;
-        font-size: 20px;
+        font-family: 'Ubuntu', serif;
+        color: black;
+        margin-left: 4%;
+        margin-top: 2%;
+        padding: 2%;
+        width: 93%;
+        height: 60%;
+        font-size: 19px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 100;
         line-height: normal;
         border-radius: 30px;
         text-align: center;

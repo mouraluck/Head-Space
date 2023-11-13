@@ -58,6 +58,7 @@ header div h1:hover span {
 }
 
 body {
+    overflow-y: hidden;
     min-width: 10px;
     background-color: #fddddd;
 }
@@ -271,7 +272,7 @@ bottom: 1503px;
 
 }
 
-@media (max-width: 1920px) {
+@media (max-height: 768px) {
     *{
         zoom: 96%;
     }
