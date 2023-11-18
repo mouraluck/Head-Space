@@ -9,7 +9,7 @@ Site de autoajuda baseado em informações psicanalíticas com o objetivo de pas
 ![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;
 
 ## Link do site
-https://lucrevoltz207.github.io/Head-Space/
+https://bit.ly/HeadSpaceIFSP
 
 ## Responsáveis pelo desenvolvimento
 * Henriquy Dias
