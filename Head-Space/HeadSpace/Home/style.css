@@ -1,0 +1,279 @@
+* {
+
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 20px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: #000;
+   }
+
+
+header img {
+
+    margin: 10px;
+    width: 45px;
+
+}
+
+header img:hover {
+    transition: 300ms linear;
+    margin: 10px;
+    width: 45px;
+    transform: rotate(50deg);
+}
+
+header div h1 {
+    font-family: 'Marcellus SC';
+    color: #373D3B;
+    display: inline-block;
+    position: relative;
+    letter-spacing: 20px;
+}
+
+header div h1 span {
+    color: #373D3B;
+    /* Cor de fundo, mesma cor do plano de fundo do header */
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+
+}
+
+header div h1:hover span {
+    opacity: 1;
+    /* Mostrar o ponto de interrogação ao passar o mouse */
+}
+
+body {
+    overflow-y: hidden;
+    min-width: 10px;
+    background-color: #fddddd;
+}
+
+
+
+button {
+    border: #78a4e7;
+    border-radius: 20px;
+    width: 384px;
+    height: 582px;
+    background-color: #B2D9FA;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    flex-shrink: 0;
+    flex: auto;
+
+    padding-left: 85px;
+
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+}
+
+button:hover {
+    background-color: #78a4e7;
+}
+
+button img {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 160px;
+}
+
+button div h1 {
+
+    margin-top: 400px;
+    display: inline-block;
+    align-content: center;
+    font-size: 40px;
+    color: white;
+    margin-left: -225px;
+}
+
+button2 div h1 {
+
+    margin-top: 230px;
+    font-family: 'arial';
+    display: inline-block;
+    align-content: center;
+    font-size: 30px;
+    color: white;
+    margin-left: -165px;
+
+}
+button2 .Topico[data-name="Ansiedade"] div h1 {
+margin-left: -173px;
+}
+button2 .Topico[data-name="Panico"] div h1 {
+margin-left: -150px;
+}button2 .Topico[data-name="Transtornos Alimentares"] div h1 {
+margin-left: -175px;
+}button2 .Topico[data-name="Burnout"] div h1 {
+margin-left: -155px;
+}button2 .Topico[data-name="Autoestima"] div h1 {
+margin-left: -180px;
+}button2 .Topico[data-name="Estresse"] div h1 {
+    margin-left: -160px;
+    }
+
+
+
+.Topico {
+    width: 295px;
+    height: 307px;
+    border-radius: 20px;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    flex: auto;
+    position: relative;
+    left: 500px;
+    bottom: 773px;
+    
+
+}
+.Topico[data-name="Ansiedade"] {
+    display: flex;
+    align-items: center;
+    background-color: #9CE3B4;
+    bottom: 783px;
+
+}
+
+.Topico[data-name="Ansiedade"]:hover {
+    background-color: #02f152;
+}
+
+.Topico[data-name="Ansiedade"] img {
+    display: flex;
+    align-items: center;
+    margin-left: 83px;
+    width: 122px;
+    height: 124px;
+    align-content: center;
+}
+
+.Topico[data-name="Panico"] {
+    display: flex;
+    align-items: center;
+    background-color: #EEBD5A;
+    position: relative;
+    left: 900px;
+bottom: 1149px;
+}
+
+.Topico[data-name="Panico"]:hover {
+    background-color: #f0a40e;
+
+}
+
+.Topico[data-name="Panico"] img {
+    display: flex;
+    align-items: center;
+    margin-left: 83px;
+    width: 122px;
+    height: 122px;
+}
+
+.Topico[data-name="Transtornos Alimentares"] {
+    display: flex;
+    align-items: center;
+    background-color: #F18B8B;
+    position: relative;
+    left: 1300px;
+    bottom: 1515px;
+}
+
+.Topico[data-name="Transtornos Alimentares"]:hover {
+    background-color: #b83a3a;
+}
+
+
+.Topico[data-name="Transtornos Alimentares"] img {
+    display: flex;
+    align-items: center;
+    margin-left: 83px;
+    width: 115px;
+    height: 115px;
+}
+
+.Topico[data-name="Burnout"] {
+    display: flex;
+    align-items: center;
+    background-color: #ff914de6;
+    position: relative;
+bottom: 1503px;
+}
+
+.Topico[data-name="Burnout"]:hover {
+    background-color: #e45c08e6;
+}
+
+.Topico[data-name="Burnout"] img {
+    display: flex;
+    align-items: center;
+    margin-left: 83px;
+    width: 124px;
+    height: 124px;
+}
+
+.Topico[data-name="Autoestima"] {
+    display: flex;
+    align-items: center;
+    background-color: #CAAACD;
+    position: relative;
+    left: 900px;
+    bottom: 1869px;
+}
+
+.Topico[data-name="Autoestima"]:hover {
+    background-color: #eb20fd;
+}
+
+.Topico[data-name="Autoestima"] img {
+    display: flex;
+    align-items: center;
+    margin-left: 83px;
+    width: 124px;
+    height: 124px;
+
+}
+
+.Topico[data-name="Estresse"] {
+    display: flex;
+    align-items: center;
+    background-color: #5bcd0180;
+    position: relative;
+    left: 1300px;
+    bottom: 2235px;
+}
+
+.Topico[data-name="Estresse"]:hover {
+    background-color: #135e01c5;
+}
+
+.Topico[data-name="Estresse"] img {
+    display: flex;
+    align-items: center;
+    margin-left: 83px;
+    width: 124px;
+    height: 124px;
+
+}
+
+@media (max-height: 768px) {
+    *{
+        zoom: 96%;
+    }
+}

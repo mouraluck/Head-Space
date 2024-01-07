@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.75">
+    <link rel="icon" href="../Imagens/Icones/icon.png" type="image/x-icon">
+    <title>HeadSpace</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <!--
+    <script>
+        alert("Olá! É importante lembrar que um autodiagnóstico não é suficiente. Recomendamos que procure um profissional especializado da saúde, como psicólogo, psiquiatra, neuropsicólogo ou neurologista, para um diagnóstico adequado. Esses profissionais irão realizar uma avaliação completa, levando em conta todos os aspectos da sua vida e história médica. Somente com essa avaliação é possível determinar se você realmente tem o que acha, ou se os sintomas podem estar relacionados a outras questões. O site tem o objetivo de conscientizar e informar, incentivando as pessoas a buscar ajuda profissional para ter uma vida mais confortável e feliz. Se você tem preocupações sobre sua saúde mental, não hesite em procurar um profissional experiente na área. Saiba que estamos aqui para apoiar. Cuide-se!")
+          </script>-->
+    <header>
+        <img src="../Imagens/favicon_io/icone-de-feuille-violet.png" alt="logo">
+        
+        <div>
+            <h1>
+                <A href= "../Menus/aboutus.html"> HEADSPACE<span>?</span>
+            </h1>
+
+        </div>
+
+
+    </header>
+    <a
+        href= "../Tópicos/1_depressao.html">
+        <button>
+            <img src="../Imagens/Icones/newimg/depressaonew.png" alt="depressaologo">
+            <div>
+                <h1>Depressão</h1>
+
+        </button>
+    </a> 
+
+    <!--<button>
+    <img src="../Imagens/Icones/2_ansiedade.png" alt="ansiedade">
+    <div>
+        <h1>Ansiedade</h1>
+    
+</button> -->
+    <button2>
+        <form id="form-Topicos">
+
+            <div class="form-Topicos">
+                <a href="../Tópicos/2_ansiedade.html">
+                    <div class="Topico" data-name="Ansiedade"><img src="../Imagens/Icones/newimg/Ansiedadenew.png"
+                            alt="Ansiedade">
+                        <div>
+                            <h1>Ansiedade</h1>
+                        </div>
+                    </div>
+                </a>
+                <a href="../Tópicos/3_panico.html">
+                    <div class="Topico" data-name="Panico"> <img src="../Imagens/Icones/newimg/paniconew.png" alt="Panico">
+                        <div>
+                            <h1>Pânico</h1>
+                        </div>
+                    </div>
+                </a>
+                <a href="../Tópicos/4_ta.html">
+                    <div class="Topico" data-name="Transtornos Alimentares"> <img src="../Imagens/Icones/newimg/tanew.png"
+                            alt="tas">
+                        <div>
+                            <h1>Transtornos Alimentares</h1>
+                        </div>
+                    </div>
+                </a>
+                <a href="../Tópicos/5_burnout.html">
+                    <div class="Topico" data-name="Burnout"> <img src="../Imagens/Icones/newimg/burnoutnew.png" alt="Burnout">
+                        <div>
+                            <h1>Burnout</h1>
+                        </div>
+                    </div>
+                </a>
+                <a href="../Tópicos/6_autoestima.html">
+                    <div class="Topico" data-name="Autoestima"> <img src="../Imagens/Icones/newimg/autoestimanew.png"
+                            alt="6_autoestima">
+                        <div>
+                            <h1>Autoestima</h1>
+                        </div>
+                    </div>
+                </a>
+                <a href="../Tópicos/7_estresse.html">
+                    <div class="Topico" data-name="Estresse"> <img src="../Imagens/Icones/newimg/estressenew.png"
+                            alt="Estresse">
+                        <div>
+                            <h1>Estresse</h1>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </form>
+
+    </button2>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const panicoItem = document.querySelector('.Topico[data-name="Panico"]');
+
+            panicoItem.addEventListener('click', function () {
+                // Ação a ser realizada quando o item "Pânico" for clicado
+                console.log("Item 'Pânico' clicado!");
+                // Por exemplo, você pode redirecionar para a página do pânico usando window.location.href
+                window.location.href = panicoItem.querySelector('img').src;
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
