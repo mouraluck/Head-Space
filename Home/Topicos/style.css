@@ -1,0 +1,124 @@
+body {
+    background: #FDF3DD;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: Ubuntu;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.retangulo {
+    width: 1300px;
+    height: 915px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position: absolute;
+    left: 170px;
+    top: 40px;
+    border-radius: 20px
+}
+
+.botoes {
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    text-align: center;
+    position: relative;
+    display: block;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Ubuntu";
+    text-decoration: none;
+    margin: 30px;
+    padding: 10px;
+    width: 150px;
+    border: 2px solid #ccc;
+    overflow: hidden;
+    transition: 1s all ease;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+}
+
+.btn1::before {
+    background-color: #b2d9fa;
+    width: 0%;
+    height: 100%;
+}
+
+.btn1:hover::before {
+    width: 100%;
+}
+
+.btn2::before {
+    background-color: #9CE3B4;
+    width: 0%;
+    height: 100%;
+}
+
+.btn2:hover::before {
+    width: 100%;
+}
+
+.btn3::before {
+    background-color: #EEBD5A;
+    width: 0%;
+    height: 100%;
+}
+
+.btn3:hover::before {
+    width: 100%;
+}
+
+.btn4::before {
+    background-color: #F18B8B;
+    width: 0%;
+    height: 100%;
+}
+
+.btn4:hover::before {
+    width: 100%;
+}
+
+.btn5::before {
+    background-color: #FF914D;
+    width: 0%;
+    height: 100%;
+}
+
+.btn5:hover::before {
+    width: 100%;
+}
+
+.btn6::before {
+    background-color: #CAAACD;
+    width: 0%;
+    height: 100%;
+}
+
+.btn6:hover::before {
+    width: 100%;
+}
+
+.btn7::before {
+    background-color: #ADE071;
+    width: 0%;
+    height: 100%;
+}
+
+.btn7:hover::before {
+    width: 100%;
+}
