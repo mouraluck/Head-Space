@@ -30,10 +30,6 @@ header img {
     width: 45px;
 
 }
-#mob {
-    display: none;
-
-    }
 
 header img:hover {
     transition: 300ms linear;
@@ -43,15 +39,16 @@ header img:hover {
 }
 
 header div h1 {
+
     font-family: 'Marcellus SC';
     font-size: 1.8rem;
     color: #373D3B;
-    display: inline-block;
+    display: none;
     position: relative;
     letter-spacing: 15px;
 }
 
-header div h1 #who {
+header div h1 span {
     color: #373D3B;
     /* Cor de fundo, mesma cor do plano de fundo do header */
     top: 0;
@@ -61,8 +58,12 @@ header div h1 #who {
     transition: opacity 0.3s;
 
 }
+ #mob {
+display: flex;
+visibility: collapse;
+}
 
-header div h1:hover #who {
+header div h1:hover span {
     opacity: 1;
     /* Mostrar o ponto de interrogação ao passar o mouse */
 }
@@ -73,13 +74,11 @@ body {
     background-color: #fddddd;
 }
 .box-container {
-    position: relative;
-    left: 450px;
-    bottom: 540px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 30px;
-    margin-top: 30px;
+    
+    display: flex;
+    flex-direction: column;
+
+   
 }
 .text {
     font-size: 20px;
@@ -88,14 +87,16 @@ body {
 .box {
     cursor: pointer;
     width: 240px;
-    height: 252px;
+    height: 126px;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     display: flex;
     border-radius: 20px;
     flex-shrink: 0;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.box .image {
+    display: none;
 }
 
     
@@ -117,22 +118,10 @@ body {
 button img {
     width: 160px;
     height: auto;
+    display: none;
 }
 button {
-    position: relative;
-    left: 60px;
-    top: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 60px;
-    border: #78a4e7;
-    border-radius: 20px;
-    width: 280px;
-    height: 460px;
-    background-color: #B2D9FA;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ height: 50%;
    
 }
 
