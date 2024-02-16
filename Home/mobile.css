@@ -1,5 +1,4 @@
 * {
-
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
@@ -26,14 +25,8 @@ a:link {
 
 
 header img {
-
     margin: 10px;
     width: 45px;
-
-}
-
-#mob {
-    display: none;
 
 }
 
@@ -48,14 +41,13 @@ header div h1 {
     font-family: 'Marcellus SC';
     font-size: 1.8rem;
     color: #373D3B;
-    display: inline-block;
+    display: none;
     position: relative;
     letter-spacing: 15px;
 }
 
-header div h1 #who {
+header div h1 span {
     color: #373D3B;
-    /* Cor de fundo, mesma cor do plano de fundo do header */
     top: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -64,25 +56,25 @@ header div h1 #who {
 
 }
 
-header div h1:hover #who {
+#mob {
+    display: flex;
+    visibility: collapse;
+}
+
+header div h1:hover span {
     opacity: 1;
     /* Mostrar o ponto de interrogação ao passar o mouse */
 }
 
 body {
-
     min-width: 10px;
     background-color: #fddddd;
 }
 
 .box-container {
-    position: relative;
-    left: 450px;
-    bottom: 540px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 30px;
-    margin-top: 30px;
+    grid-template-columns: repeat(1, 1fr) !important;
+    left: 0px !important;
+    bottom: 0px !important;
 }
 
 .text {
@@ -92,15 +84,18 @@ body {
 
 .box {
     cursor: pointer;
-    width: 240px;
-    height: 252px;
+    width: 240px!important;
+    height: 126px!important;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     display: flex;
     border-radius: 20px;
     flex-shrink: 0;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.box .image {
+    display: none;
 }
 
 
@@ -117,29 +112,19 @@ body {
     flex-direction: column;
     display: flex;
     border-radius: 20px;
+    
 }
 
 button img {
     width: 160px;
-    height: auto;
+    display: none;
 }
 
 button {
-    position: relative;
-    left: 60px;
-    top: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 60px;
-    border: #78a4e7;
-    border-radius: 20px;
-    width: 280px;
-    height: 460px;
-    background-color: #B2D9FA;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
+    left: 0px!important;
+    width: 240px!important;
+    height: 126px!important;
+    margin-bottom: 20px !important;
 }
 
 button:hover {
@@ -149,7 +134,6 @@ button:hover {
 
 
 button div h1 {
-    font-family: 'Marcellus SC';
     display: flex;
     font-size: 30px;
     color: rgb(255, 255, 255);
