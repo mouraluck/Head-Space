@@ -5,9 +5,10 @@
 }
 
 body {
-    height: 90vh;
-    width: 100vh;
-    margin: 30px;
+    
+    height: 50vh!important;
+    width: 50vh!important;
+    margin: 0%!important;
 }
 
 header {
@@ -37,11 +38,11 @@ header img:hover {
     transform: rotate(50deg);
 }
 
-header div h1 {
+header div #title {
     font-family: 'Marcellus SC';
     font-size: 1.8rem;
     color: #373D3B;
-    display: none;
+    display: none!important;
     position: relative;
     letter-spacing: 15px;
 }
@@ -57,8 +58,9 @@ header div h1 span {
 }
 
 #mob {
-    display: flex;
-    visibility: collapse;
+    display: inline-flex !important;
+    visibility:visible !important;
+    color: #000!important;
 }
 
 header div h1:hover span {
@@ -75,6 +77,8 @@ body {
     grid-template-columns: repeat(1, 1fr) !important;
     left: 0px !important;
     bottom: 0px !important;
+    margin-left: 20%!important;
+    margin-right: 20%!important;
 }
 
 .text {
@@ -121,10 +125,12 @@ button img {
 }
 
 button {
+    margin-bottom: 10%!important;
+    margin-left: 20%!important;
+    margin-right: 20%!important;
     left: 0px!important;
     width: 240px!important;
     height: 126px!important;
-    margin-bottom: 20px !important;
 }
 
 button:hover {
